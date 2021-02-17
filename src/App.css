@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.Container {
+  height: 120vh;
+  width: 120vw;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.icon {
+  /* display: block;
+  margin-left: 32%; */
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
